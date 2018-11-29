@@ -1,0 +1,30 @@
+{
+  "name": "certs2",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "async": "^2.6.1",
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.1.3",
+    "cookie-parser": "^1.4.3",
+    "date-and-time": "^0.6.3",
+    "debug": "^2.6.9",
+    "express": "^4.16.4",
+    "hbs": "^4.0.1",
+    "http-errors": "^1.6.3",
+    "morgan": "^1.9.1",
+    "pg": "^7.6.1"
+  },
+  "main": "app.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
